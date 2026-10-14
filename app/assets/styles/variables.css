@@ -1,0 +1,35 @@
+:root {
+    --color-background: #f3f4ef;
+    --color-surface: #ffffff;
+    --color-text: #1a1d19;
+    --color-second-text: #4f564d;
+    --color-accent: #2e6a3e;
+    --color-accent-dark: #24502f;
+    --color-accent-soft: #dde8dc;
+    --color-badge: #e8833a;
+    --color-border: #e2e4dc;
+    --color-placeholder: #c9d6c6;
+    --color-placeholder-text: #3c4a3a;
+
+    --container-width: 1200px;
+    --container-padding: 40px;
+    --header-height: 80px;
+    --section-padding: 96px;
+
+    --radius-card: 20px;
+    --radius-photo: 24px;
+
+    --font-main: "Manrope", sans-serif;
+    --font-accent: "Unbounded", sans-serif;
+}
+
+@media (max-width: 767.98px) {
+    :root {
+        --container-padding: 20px;
+        --header-height: 64px;
+        --section-padding: 56px;
+
+        --radius-card: 16px;
+        --radius-photo: 20px;
+    }
+}
